@@ -1,0 +1,19 @@
+POST http://localhost:8000/add
+Content-Type: application/json
+
+{
+    "name": "Task 4"
+}
+
+###
+
+GET http://localhost:8000/all_tasks
+
+###
+
+GET http://localhost:8000/task/1
+
+###
+
+PUT http://localhost:8000/update/1
+Content-Type: application/json
